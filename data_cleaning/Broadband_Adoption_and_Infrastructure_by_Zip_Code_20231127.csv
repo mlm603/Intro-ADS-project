@@ -1,0 +1,249 @@
+OID,Zip Code,Home Broadband Adoption (Percentage of  Households),Mobile Broadband Adoption (Percentage of Households),No Internet Access (Percentage of Households),No Home Broadband Adoption (Percentage of  Households),No Mobile Broadband Adoption (Percentage of Households),No Home Broadband Adoption by Quartile,No Mobile Broadband Adoption by Quartile,Commercial Fiber Max ISP Choice,Public Computer Center Count,Workstations in PCCs,Avg training hrs per week in PCCs,Public Wi-Fi Count,Poles Reserved by Mobile Telecom Franchisee,Pole with Equipment Installed by Mobile Telecom Franchise,Density of Poles Reserved and with Equipment Installed for Mobile Telecom Franchise
+0,83,0.8343,0.8442,0.0747,0.1657,0.1558,Medium Low Connected,Medium Low Connected,11,0,0,0,0,42,61,1.45
+1,10001,0.8258,0.8359,0.091,0.1742,0.1641,Medium Low Connected,Medium Low Connected,11,2,35,38.9,65,27,85,3.15
+2,10002,0.541,0.6496,0.3092,0.459,0.3504,High Connected,High Connected,6,10,243,55.4,24,4,111,27.75
+3,10003,0.8002,0.8579,0.0803,0.1998,0.1421,Medium Low Connected,Medium Low Connected,8,2,53,5.2,82,14,94,6.71
+4,10004,0.9255,0.9625,0.008,0.0745,0.0375,Low Connected,Low Connected,3,0,0,0,51,1,39,39
+5,10005,0.9225,0.9575,0.0122,0.0775,0.0425,Low Connected,Low Connected,0,0,0,0,9,3,46,15.33
+6,10006,0.9172,0.9504,0.0136,0.0828,0.0496,Low Connected,Low Connected,12,0,0,0,5,0,8,0
+7,10007,0.8431,0.863,0.0932,0.1569,0.137,Medium Low Connected,Medium Low Connected,9,1,30,30.9,17,1,23,23
+8,10009,0.6241,0.7681,0.1715,0.3759,0.2319,High Connected,Medium High Connected,5,3,71,12.4,16,1,60,60
+9,10010,0.8344,0.8525,0.0842,0.1656,0.1475,Medium Low Connected,Medium Low Connected,8,2,45,8,50,7,34,4.86
+10,10011,0.8503,0.8611,0.0595,0.1497,0.1389,Low Connected,Medium Low Connected,10,6,123,21.3,110,6,65,10.83
+11,10012,0.7959,0.8403,0.112,0.2041,0.1597,Medium Low Connected,Medium Low Connected,8,3,88,19.1,11,5,46,9.2
+12,10013,0.7737,0.8144,0.1549,0.2263,0.1856,Medium Low Connected,Medium Low Connected,14,0,0,0,34,10,97,9.7
+13,10014,0.8484,0.8677,0.0614,0.1516,0.1323,Low Connected,Low Connected,13,2,34,9.5,26,5,85,17
+14,10016,0.8458,0.8626,0.0772,0.1542,0.1374,Medium Low Connected,Medium Low Connected,10,3,320,73.8,96,7,76,10.86
+15,10017,0.8752,0.9041,0.0393,0.1248,0.0959,Low Connected,Low Connected,12,1,33,9.3,47,10,49,4.9
+16,10018,0.8647,0.9002,0.0561,0.1353,0.0998,Low Connected,Low Connected,12,1,176,3.4,29,7,50,7.14
+17,10019,0.819,0.8398,0.0899,0.181,0.1602,Medium Low Connected,Medium Low Connected,11,3,146,31.2,83,11,88,8
+18,10020,0.8072,0.8118,0.1111,0.1928,0.1882,Medium Low Connected,Medium Low Connected,11,0,0,0,2,1,12,12
+19,10021,0.8581,0.8666,0.0583,0.1419,0.1334,Low Connected,Low Connected,6,3,78,11.3,25,7,58,8.29
+20,10022,0.8588,0.8547,0.0699,0.1412,0.1453,Low Connected,Medium Low Connected,9,4,88,20,86,6,76,12.67
+21,10023,0.8471,0.8653,0.0655,0.1529,0.1347,Low Connected,Low Connected,8,6,236,30.4,64,7,58,8.29
+22,10024,0.8344,0.8594,0.0723,0.1656,0.1406,Medium Low Connected,Medium Low Connected,6,2,74,2.9,64,7,69,9.86
+23,10025,0.779,0.8047,0.115,0.221,0.1953,Medium Low Connected,Medium Low Connected,6,6,163,11.8,106,19,82,4.32
+24,10026,0.6903,0.755,0.1828,0.3097,0.245,Medium High Connected,Medium High Connected,5,1,33,2.9,39,11,20,1.82
+25,10027,0.6778,0.7293,0.196,0.3222,0.2707,High Connected,High Connected,6,10,157,31.5,89,18,57,3.17
+26,10028,0.8813,0.8653,0.0463,0.1187,0.1347,Low Connected,Low Connected,6,0,0,0,22,5,27,5.4
+27,10029,0.6508,0.7371,0.2208,0.3492,0.2629,High Connected,High Connected,6,10,206,10.9,41,17,54,3.18
+28,10030,0.6863,0.7531,0.1842,0.3137,0.2469,Medium High Connected,Medium High Connected,5,5,167,92.2,32,3,19,6.33
+29,10031,0.7165,0.7726,0.1812,0.2835,0.2274,Medium High Connected,Medium High Connected,4,1,85,8.8,62,12,55,4.58
+30,10032,0.6659,0.7493,0.2054,0.3341,0.2507,High Connected,Medium High Connected,5,4,119,17.6,32,15,39,2.6
+31,10033,0.7115,0.7686,0.1704,0.2885,0.2314,Medium High Connected,Medium High Connected,5,3,63,22.1,35,11,12,1.09
+32,10034,0.6574,0.7644,0.1686,0.3426,0.2356,High Connected,Medium High Connected,4,2,65,4.6,2,3,15,5
+33,10035,0.5952,0.6769,0.2776,0.4048,0.3231,High Connected,High Connected,6,3,61,13.7,37,15,33,2.2
+34,10036,0.7927,0.8377,0.1145,0.2073,0.1623,Medium Low Connected,Medium Low Connected,9,2,18,8,29,19,72,3.79
+35,10037,0.6648,0.6935,0.2079,0.3352,0.3065,High Connected,High Connected,6,3,62,19.3,26,4,10,2.5
+36,10038,0.7646,0.7991,0.1667,0.2354,0.2009,Medium Low Connected,Medium Low Connected,11,2,18,27,21,4,46,11.5
+37,10039,0.6779,0.7462,0.1796,0.3221,0.2538,High Connected,Medium High Connected,4,3,38,19.2,18,3,12,4
+38,10040,0.7003,0.7514,0.1565,0.2997,0.2486,Medium High Connected,Medium High Connected,5,1,11,7,9,3,13,4.33
+39,10041,0.9078,0.9593,0.0228,0.0922,0.0407,Low Connected,Low Connected,0,0,0,0,3,0,0,0
+40,10043,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+41,10044,0.8338,0.8528,0.0771,0.1662,0.1472,Medium Low Connected,Medium Low Connected,4,2,28,10.3,2,0,0,0
+42,10045,0.8848,0.9205,0.0521,0.1152,0.0795,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+43,10047,1,0.9459,0,0,0.0541,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+44,10048,0.9137,0.9295,0.0213,0.0863,0.0705,Low Connected,Low Connected,9,0,0,0,1,0,0,0
+45,10055,0.7347,0.9388,0.1429,0.2653,0.0612,Medium High Connected,Low Connected,0,0,0,0,0,0,0,0
+46,10065,0.8431,0.8481,0.0691,0.1569,0.1519,Medium Low Connected,Medium Low Connected,6,1,38,10.9,49,2,66,33
+47,10069,0.9095,0.9044,0.0388,0.0905,0.0956,Low Connected,Low Connected,0,0,0,0,0,1,2,2
+48,10075,0.8633,0.8336,0.071,0.1367,0.1664,Low Connected,Medium Low Connected,7,0,0,0,9,1,23,23
+49,10080,0.9164,0.9653,0,0.0836,0.0347,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+50,10081,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+51,10096,0.7041,0.9694,0.0816,0.2959,0.0306,Medium High Connected,Low Connected,0,0,0,0,0,0,0,0
+52,10097,0.7556,0.7204,0.2029,0.2444,0.2796,Medium High Connected,High Connected,0,0,0,0,0,0,0,0
+53,10103,0.7811,0.7723,0.1103,0.2189,0.2277,Medium Low Connected,Medium High Connected,0,0,0,0,0,0,0,0
+54,10104,0.7811,0.7723,0.1103,0.2189,0.2277,Medium Low Connected,Medium High Connected,0,0,0,0,0,0,0,0
+55,10105,0.9156,0.9016,0,0.0844,0.0984,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+56,10106,0.9522,0.9504,0,0.0478,0.0496,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+57,10107,0.9126,0.9579,0.0453,0.0874,0.0421,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+58,10110,0.7041,0.9694,0.0816,0.2959,0.0306,Medium High Connected,Low Connected,0,0,0,0,0,0,0,0
+59,10111,0.7774,0.7855,0.1129,0.2226,0.2145,Medium Low Connected,Medium High Connected,0,0,0,0,1,0,1,0
+60,10112,0.8131,0.7977,0.1119,0.1869,0.2023,Medium Low Connected,Medium Low Connected,0,0,0,0,0,0,4,0
+61,10115,0.8203,0.7476,0.0191,0.1797,0.2524,Medium Low Connected,Medium High Connected,0,0,0,0,0,0,0,0
+62,10118,0.8926,0.9469,0.0739,0.1074,0.0531,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+63,10119,0.8723,0.8867,0.0325,0.1277,0.1133,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+64,10120,0.8723,0.8867,0.0325,0.1277,0.1133,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+65,10121,0.8723,0.8867,0.0325,0.1277,0.1133,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+66,10122,0.9355,0.8925,0,0.0645,0.1075,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+67,10123,0.9355,0.8925,0,0.0645,0.1075,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+68,10128,0.8121,0.8569,0.0989,0.1879,0.1431,Medium Low Connected,Medium Low Connected,6,3,73,6.7,9,1,43,43
+69,10151,0.9162,0.8429,0.0628,0.0838,0.1571,Low Connected,Medium Low Connected,0,0,0,0,0,0,0,0
+70,10152,0.9592,0.8095,0.0408,0.0408,0.1905,Low Connected,Medium Low Connected,0,0,0,0,0,0,0,0
+71,10153,0.9162,0.8429,0.0628,0.0838,0.1571,Low Connected,Medium Low Connected,0,0,0,0,0,0,0,0
+72,10154,0.9592,0.8095,0.0408,0.0408,0.1905,Low Connected,Medium Low Connected,0,0,0,0,0,0,0,0
+73,10155,0.862,0.9172,0.0276,0.138,0.0828,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+74,10158,0.7173,0.8717,0.0681,0.2827,0.1283,Medium High Connected,Low Connected,0,0,0,0,0,0,0,0
+75,10162,1,0.9312,0,0,0.0688,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+76,10165,0.9259,0.8993,0,0.0741,0.1007,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+77,10166,0.8951,0.9126,0.0304,0.1049,0.0874,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+78,10167,0.8951,0.9126,0.0304,0.1049,0.0874,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+79,10168,0.7751,0.9081,0.0523,0.2249,0.0919,Medium Low Connected,Low Connected,0,0,0,0,0,0,0,0
+80,10169,0.8951,0.9126,0.0304,0.1049,0.0874,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+81,10170,0.8951,0.9126,0.0304,0.1049,0.0874,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+82,10171,0.8951,0.9126,0.0304,0.1049,0.0874,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+83,10172,0.8951,0.9126,0.0304,0.1049,0.0874,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+84,10173,0.8947,0.8947,0.1053,0.1053,0.1053,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+85,10174,0.8951,0.9126,0.0304,0.1049,0.0874,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+86,10175,0.8947,0.8947,0.1053,0.1053,0.1053,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+87,10176,0.8947,0.8947,0.1053,0.1053,0.1053,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+88,10177,0.8947,0.8947,0.1053,0.1053,0.1053,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+89,10178,0.7751,0.9081,0.0523,0.2249,0.0919,Medium Low Connected,Low Connected,0,0,0,0,0,0,0,0
+90,10196,0.7041,0.9694,0.0816,0.2959,0.0306,Medium High Connected,Low Connected,0,0,0,0,0,0,0,0
+91,10203,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+92,10259,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+93,10260,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+94,10265,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+95,10270,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+96,10271,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+97,10275,0.9418,1,0,0.0582,0,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+98,10278,0.8202,0.861,0.0995,0.1798,0.139,Medium Low Connected,Medium Low Connected,0,0,0,0,0,0,0,0
+99,10279,0.917,0.9677,0.0125,0.083,0.0323,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+100,10280,0.9121,0.9416,0.0102,0.0879,0.0584,Low Connected,Low Connected,5,0,0,0,0,0,7,0
+101,10281,0.9222,0.9186,0.0081,0.0778,0.0814,Low Connected,Low Connected,0,0,0,0,0,0,3,0
+102,10282,0.952,0.8893,0,0.048,0.1107,Low Connected,Low Connected,0,1,30,0.6,1,0,0,0
+103,10285,1,1,0,0,0,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+104,10286,0.9237,0.9514,0.0078,0.0763,0.0486,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+105,10301,0.7187,0.697,0.1897,0.2813,0.303,Medium High Connected,High Connected,4,3,131,28.3,9,31,60,1.94
+106,10302,0.7081,0.7237,0.1919,0.2919,0.2763,Medium High Connected,High Connected,4,1,58,14.4,1,4,22,5.5
+107,10303,0.6954,0.7095,0.2081,0.3046,0.2905,Medium High Connected,High Connected,4,2,63,11.9,0,12,23,1.92
+108,10304,0.6819,0.6995,0.2248,0.3181,0.3005,High Connected,High Connected,4,3,121,18.5,12,31,46,1.48
+109,10305,0.7284,0.7108,0.1689,0.2716,0.2892,Medium High Connected,High Connected,3,2,24,1.8,21,23,34,1.48
+110,10306,0.7566,0.7132,0.1491,0.2434,0.2868,Medium High Connected,High Connected,4,3,93,12.6,25,26,49,1.88
+111,10307,0.7949,0.7259,0.1221,0.2051,0.2741,Medium Low Connected,High Connected,3,1,14,1.5,1,12,23,1.92
+112,10308,0.7993,0.7696,0.1056,0.2007,0.2304,Medium Low Connected,Medium High Connected,4,1,21,4.4,1,8,27,3.38
+113,10309,0.8235,0.7839,0.1079,0.1765,0.2161,Medium Low Connected,Medium High Connected,3,0,0,0,4,17,72,4.24
+114,10310,0.6577,0.6604,0.2339,0.3423,0.3396,High Connected,High Connected,4,2,67,2.8,18,12,28,2.33
+115,10312,0.811,0.7781,0.1072,0.189,0.2219,Medium Low Connected,Medium High Connected,3,2,18,2,2,26,93,3.58
+116,10314,0.8021,0.7637,0.1166,0.1979,0.2363,Medium Low Connected,Medium High Connected,6,4,95,30.9,6,28,112,4
+117,10451,0.5939,0.7242,0.2761,0.4061,0.2758,High Connected,High Connected,6,6,87,12.9,47,21,55,2.62
+118,10452,0.576,0.7416,0.2617,0.424,0.2584,High Connected,High Connected,5,5,116,34.1,14,27,76,2.81
+119,10453,0.5758,0.7522,0.2622,0.4242,0.2478,High Connected,Medium High Connected,5,5,155,25.1,20,18,74,4.11
+120,10454,0.5406,0.7116,0.3236,0.4594,0.2884,High Connected,High Connected,5,4,104,6.9,28,20,55,2.75
+121,10455,0.5894,0.7406,0.2825,0.4106,0.2594,High Connected,High Connected,5,4,55,26.5,27,18,56,3.11
+122,10456,0.5845,0.7125,0.2596,0.4155,0.2875,High Connected,High Connected,5,7,204,27.9,9,17,84,4.94
+123,10457,0.567,0.7439,0.2676,0.433,0.2561,High Connected,High Connected,5,5,128,9,42,35,85,2.43
+124,10458,0.5798,0.7737,0.2087,0.4202,0.2263,High Connected,Medium High Connected,5,3,290,28.1,18,21,72,3.43
+125,10459,0.5911,0.7392,0.2813,0.4089,0.2608,High Connected,High Connected,4,3,84,16.7,3,15,46,3.07
+126,10460,0.5834,0.7433,0.2855,0.4166,0.2567,High Connected,High Connected,4,2,82,23.8,8,11,58,5.27
+127,10461,0.6841,0.7337,0.1759,0.3159,0.2663,Medium High Connected,High Connected,5,5,113,29.8,5,26,65,2.5
+128,10462,0.6637,0.75,0.1757,0.3363,0.25,High Connected,Medium High Connected,5,4,183,55.2,6,8,76,9.5
+129,10463,0.6974,0.7384,0.1557,0.3026,0.2616,Medium High Connected,High Connected,5,6,123,18.2,4,12,58,4.83
+130,10464,0.6383,0.6138,0.2409,0.3617,0.3862,High Connected,High Connected,3,1,19,4.3,1,11,6,0.55
+131,10465,0.7011,0.7449,0.1515,0.2989,0.2551,Medium High Connected,High Connected,4,3,63,7.5,22,26,67,2.58
+132,10466,0.6133,0.712,0.1929,0.3867,0.288,High Connected,High Connected,4,3,84,40.4,6,18,53,2.94
+133,10467,0.6162,0.7359,0.206,0.3838,0.2641,High Connected,High Connected,4,9,179,27.3,15,25,93,3.72
+134,10468,0.6166,0.7575,0.1999,0.3834,0.2425,High Connected,Medium High Connected,4,2,82,24.8,26,29,69,2.38
+135,10469,0.655,0.7466,0.1898,0.345,0.2534,High Connected,Medium High Connected,4,4,58,11.4,6,29,63,2.17
+136,10470,0.6068,0.7257,0.1767,0.3932,0.2743,High Connected,High Connected,4,1,23,3.5,1,3,15,5
+137,10471,0.7377,0.7549,0.1385,0.2623,0.2451,Medium High Connected,Medium High Connected,4,2,33,13.2,3,3,26,8.67
+138,10472,0.622,0.732,0.2431,0.378,0.268,High Connected,High Connected,4,2,58,5.7,1,8,64,8
+139,10473,0.6836,0.7231,0.204,0.3164,0.2769,Medium High Connected,High Connected,4,6,98,42.1,2,19,61,3.21
+140,10474,0.617,0.7108,0.2835,0.383,0.2892,High Connected,High Connected,4,1,10,3.3,1,18,31,1.72
+141,10475,0.6722,0.6919,0.2096,0.3278,0.3081,High Connected,High Connected,4,3,92,7.8,1,3,25,8.33
+142,11001,0.8147,0.8188,0.1064,0.1853,0.1812,Medium Low Connected,Medium Low Connected,0,0,0,0,0,0,0,0
+143,11004,0.7641,0.7575,0.1251,0.2359,0.2425,Medium Low Connected,Medium High Connected,3,1,24,2.5,1,10,1,0.1
+144,11005,0.7117,0.6937,0.1806,0.2883,0.3063,Medium High Connected,High Connected,2,0,0,0,0,1,0,0
+145,11040,0.7632,0.7602,0.1095,0.2368,0.2398,Medium Low Connected,Medium High Connected,2,0,0,0,0,4,1,0.25
+146,11096,0.5106,0.77,0.2272,0.4894,0.23,High Connected,Medium High Connected,0,0,0,0,0,0,0,0
+147,11101,0.7964,0.8333,0.121,0.2036,0.1667,Medium Low Connected,Medium Low Connected,5,6,147,15.4,70,66,14,0.21
+148,11102,0.7851,0.8063,0.1215,0.2149,0.1937,Medium Low Connected,Medium Low Connected,4,3,52,11.5,11,21,8,0.38
+149,11103,0.7764,0.8037,0.1323,0.2236,0.1963,Medium Low Connected,Medium Low Connected,4,1,18,5.9,30,10,7,0.7
+150,11104,0.7591,0.8017,0.1413,0.2409,0.1983,Medium High Connected,Medium Low Connected,3,2,24,4.6,7,3,5,1.67
+151,11105,0.7927,0.8124,0.1318,0.2073,0.1876,Medium Low Connected,Medium Low Connected,4,1,31,0.9,2,18,12,0.67
+152,11106,0.7803,0.7967,0.1387,0.2197,0.2033,Medium Low Connected,Medium Low Connected,4,2,20,5,19,10,10,1
+153,11109,0.901,0.9448,0.0213,0.099,0.0552,Low Connected,Low Connected,0,0,0,0,0,0,0,0
+154,11201,0.8332,0.8347,0.0963,0.1668,0.1653,Medium Low Connected,Medium Low Connected,7,4,66,12.3,156,39,56,1.44
+155,11203,0.6798,0.7072,0.2154,0.3202,0.2928,High Connected,High Connected,4,3,27,8.3,13,28,37,1.32
+156,11204,0.6259,0.6801,0.2492,0.3741,0.3199,High Connected,High Connected,3,2,39,6.9,7,11,15,1.36
+157,11205,0.682,0.7469,0.2185,0.318,0.2531,High Connected,Medium High Connected,4,3,32,6.6,22,8,21,2.63
+158,11206,0.5961,0.7156,0.2683,0.4039,0.2844,High Connected,High Connected,4,8,114,28.8,25,7,33,4.71
+159,11207,0.6335,0.7635,0.2196,0.3665,0.2365,High Connected,Medium High Connected,4,6,112,20.7,16,21,45,2.14
+160,11208,0.7109,0.8062,0.1925,0.2891,0.1938,Medium High Connected,Medium Low Connected,4,4,49,16.5,12,34,19,0.56
+161,11209,0.7563,0.7695,0.1275,0.2437,0.2305,Medium High Connected,Medium High Connected,4,5,74,12,5,4,30,7.5
+162,11210,0.7488,0.7481,0.1404,0.2512,0.2519,Medium High Connected,Medium High Connected,5,1,21,5.2,3,13,12,0.92
+163,11211,0.6243,0.7193,0.2668,0.3757,0.2807,High Connected,High Connected,4,5,63,24.7,23,6,27,4.5
+164,11212,0.5891,0.6826,0.2701,0.4109,0.3174,High Connected,High Connected,4,11,198,100.3,12,28,38,1.36
+165,11213,0.638,0.7456,0.2311,0.362,0.2544,High Connected,Medium High Connected,4,5,106,43,17,12,26,2.17
+166,11214,0.7165,0.7497,0.1695,0.2835,0.2503,Medium High Connected,Medium High Connected,4,3,52,12.4,9,18,21,1.17
+167,11215,0.8484,0.8604,0.0681,0.1516,0.1396,Low Connected,Medium Low Connected,6,3,39,3.7,37,12,33,2.75
+168,11216,0.6882,0.7916,0.1781,0.3118,0.2084,Medium High Connected,Medium Low Connected,4,5,91,9.7,27,13,16,1.23
+169,11217,0.8215,0.8494,0.0789,0.1785,0.1506,Medium Low Connected,Medium Low Connected,4,2,29,6.8,40,12,39,3.25
+170,11218,0.7038,0.7401,0.1866,0.2962,0.2599,Medium High Connected,High Connected,5,2,60,11.3,4,4,24,6
+171,11219,0.5463,0.6211,0.3191,0.4537,0.3789,High Connected,High Connected,5,4,36,22.6,2,12,28,2.33
+172,11220,0.6683,0.739,0.2223,0.3317,0.261,High Connected,High Connected,4,2,35,7.5,6,6,34,5.67
+173,11221,0.5824,0.7773,0.2149,0.4176,0.2227,High Connected,Medium High Connected,4,7,108,41.8,3,5,30,6
+174,11222,0.7464,0.8343,0.1368,0.2536,0.1657,Medium High Connected,Medium Low Connected,4,2,32,22.5,21,8,10,1.25
+175,11223,0.7092,0.7291,0.1715,0.2908,0.2709,Medium High Connected,High Connected,4,6,61,29.9,3,10,15,1.5
+176,11224,0.6224,0.6028,0.2654,0.3776,0.3972,High Connected,High Connected,4,5,66,16.4,32,18,9,0.5
+177,11225,0.6831,0.7201,0.2037,0.3169,0.2799,High Connected,High Connected,5,1,35,4.5,20,13,17,1.31
+178,11226,0.6622,0.7194,0.2243,0.3378,0.2806,High Connected,High Connected,4,4,86,11.5,28,27,31,1.15
+179,11228,0.766,0.776,0.1387,0.234,0.224,Medium Low Connected,Medium High Connected,4,1,15,4.7,7,4,6,1.5
+180,11229,0.7519,0.697,0.1515,0.2481,0.303,Medium High Connected,High Connected,4,5,140,33.9,5,12,28,2.33
+181,11230,0.6568,0.6879,0.2027,0.3432,0.3121,High Connected,High Connected,4,4,51,9.9,1,4,22,5.5
+182,11231,0.7979,0.8026,0.1257,0.2021,0.1974,Medium Low Connected,Medium Low Connected,3,4,52,10.1,27,9,19,2.11
+183,11232,0.6857,0.7594,0.171,0.3143,0.2406,Medium High Connected,Medium High Connected,5,1,18,17.1,15,3,18,6
+184,11233,0.6267,0.8,0.248,0.3733,0.2,High Connected,Medium Low Connected,4,5,114,30.9,20,14,34,2.43
+185,11234,0.7663,0.7647,0.1375,0.2337,0.2353,Medium Low Connected,Medium High Connected,5,4,66,13.8,7,12,16,1.33
+186,11235,0.7105,0.6513,0.197,0.2895,0.3487,Medium High Connected,High Connected,4,4,76,25.8,17,14,22,1.57
+187,11236,0.7523,0.7778,0.1608,0.2477,0.2222,Medium High Connected,Medium High Connected,4,4,58,25.9,3,23,32,1.39
+188,11237,0.6184,0.8142,0.1877,0.3816,0.1858,High Connected,Medium Low Connected,4,2,50,16.9,7,9,19,2.11
+189,11238,0.7754,0.8214,0.1298,0.2246,0.1786,Medium Low Connected,Medium Low Connected,5,5,304,80.8,31,5,28,5.6
+190,11239,0.6393,0.679,0.2542,0.3607,0.321,High Connected,High Connected,3,1,12,2,0,6,1,0.17
+191,11249,0.6405,0.7229,0.2635,0.3595,0.2771,High Connected,High Connected,4,0,0,0,17,2,13,6.5
+192,11251,0.6339,0.7146,0.2564,0.3661,0.2854,High Connected,High Connected,5,0,0,0,0,0,2,0
+193,11354,0.5805,0.6552,0.247,0.4195,0.3448,High Connected,High Connected,6,3,36,5.7,7,29,39,1.34
+194,11355,0.5597,0.6597,0.2433,0.4403,0.3403,High Connected,High Connected,4,6,214,57.7,10,18,43,2.39
+195,11356,0.6678,0.6698,0.2019,0.3322,0.3302,High Connected,High Connected,2,1,11,0.8,1,4,11,2.75
+196,11357,0.7671,0.7384,0.1385,0.2329,0.2616,Medium Low Connected,High Connected,4,1,18,1.3,1,18,34,1.89
+197,11358,0.7405,0.7499,0.1397,0.2595,0.2501,Medium High Connected,Medium High Connected,3,3,40,3.9,6,16,28,1.75
+198,11359,0.8182,0.8061,0.0946,0.1818,0.1939,Medium Low Connected,Medium Low Connected,2,0,0,0,0,1,0,0
+199,11360,0.8028,0.7618,0.1097,0.1972,0.2382,Medium Low Connected,Medium High Connected,4,2,16,4.8,1,4,20,5
+200,11361,0.7961,0.7778,0.1038,0.2039,0.2222,Medium Low Connected,Medium High Connected,4,1,19,0.5,1,15,25,1.67
+201,11362,0.7877,0.7417,0.1433,0.2123,0.2583,Medium Low Connected,High Connected,3,2,7,3.8,2,2,9,4.5
+202,11363,0.807,0.7603,0.1275,0.193,0.2397,Medium Low Connected,Medium High Connected,3,1,14,0.8,0,4,0,0
+203,11364,0.8179,0.7965,0.0886,0.1821,0.2035,Medium Low Connected,Medium Low Connected,4,2,21,5.5,1,18,19,1.06
+204,11365,0.8007,0.7783,0.1227,0.1993,0.2217,Medium Low Connected,Medium High Connected,3,2,49,2.7,9,28,18,0.64
+205,11366,0.8278,0.8223,0.0888,0.1722,0.1777,Medium Low Connected,Medium Low Connected,3,1,10,4.8,4,1,1,1
+206,11367,0.7396,0.7519,0.1534,0.2604,0.2481,Medium High Connected,Medium High Connected,3,4,58,11,1,14,26,1.86
+207,11368,0.6503,0.7564,0.196,0.3497,0.2436,High Connected,Medium High Connected,4,7,130,19.2,5,38,22,0.58
+208,11369,0.7166,0.7696,0.1812,0.2834,0.2304,Medium High Connected,Medium High Connected,4,2,28,1.3,2,17,15,0.88
+209,11370,0.7729,0.8017,0.1477,0.2271,0.1983,Medium Low Connected,Medium Low Connected,3,0,0,0,0,11,6,0.55
+210,11371,0.7454,0.7306,0.1772,0.2546,0.2694,Medium High Connected,High Connected,0,0,0,0,0,1,0,0
+211,11372,0.7419,0.8085,0.1712,0.2581,0.1915,Medium High Connected,Medium Low Connected,4,4,53,3.4,26,22,11,0.5
+212,11373,0.7298,0.7873,0.1611,0.2702,0.2127,Medium High Connected,Medium High Connected,4,3,118,7.3,45,24,19,0.79
+213,11374,0.7441,0.7396,0.1486,0.2559,0.2604,Medium High Connected,High Connected,3,3,46,27.2,12,4,17,4.25
+214,11375,0.7727,0.7829,0.1155,0.2273,0.2171,Medium Low Connected,Medium High Connected,4,5,67,24.6,26,18,27,1.5
+215,11377,0.7524,0.7926,0.1509,0.2476,0.2074,Medium High Connected,Medium Low Connected,4,3,25,7.9,26,20,16,0.8
+216,11378,0.7628,0.7657,0.1325,0.2372,0.2343,Medium High Connected,Medium High Connected,4,2,29,6.3,1,10,6,0.6
+217,11379,0.7605,0.7643,0.1412,0.2395,0.2357,Medium High Connected,Medium High Connected,4,2,24,1.3,9,18,9,0.5
+218,11385,0.7304,0.8073,0.1703,0.2696,0.1927,Medium High Connected,Medium Low Connected,4,3,51,6.6,4,37,31,0.84
+219,11411,0.7293,0.7896,0.1323,0.2707,0.2104,Medium High Connected,Medium High Connected,2,1,21,1.5,1,19,9,0.47
+220,11412,0.5861,0.7791,0.1656,0.4139,0.2209,High Connected,Medium High Connected,3,2,53,4.7,2,9,4,0.44
+221,11413,0.6033,0.7959,0.1552,0.3967,0.2041,High Connected,Medium Low Connected,3,1,36,3.4,1,36,18,0.5
+222,11414,0.7553,0.7392,0.1404,0.2447,0.2608,Medium High Connected,High Connected,2,1,12,0.2,1,5,4,0.8
+223,11415,0.7508,0.7952,0.1378,0.2492,0.2048,Medium High Connected,Medium Low Connected,4,0,0,0,8,2,12,6
+224,11416,0.7698,0.7994,0.1167,0.2302,0.2006,Medium Low Connected,Medium Low Connected,2,1,3,2,2,5,12,2.4
+225,11417,0.7689,0.776,0.1141,0.2311,0.224,Medium Low Connected,Medium High Connected,3,1,5,0.1,1,10,13,1.3
+226,11418,0.7577,0.8072,0.142,0.2423,0.1928,Medium High Connected,Medium Low Connected,4,1,26,1.2,25,22,22,1
+227,11419,0.7408,0.8182,0.1336,0.2592,0.1818,Medium High Connected,Medium Low Connected,3,1,26,1.4,6,17,18,1.06
+228,11420,0.7583,0.8099,0.1216,0.2417,0.1901,Medium High Connected,Medium Low Connected,3,1,24,0.8,1,14,8,0.57
+229,11421,0.7736,0.8124,0.1232,0.2264,0.1876,Medium Low Connected,Medium Low Connected,2,2,19,2.4,17,10,11,1.1
+230,11422,0.7475,0.8288,0.1151,0.2525,0.1712,Medium High Connected,Medium Low Connected,4,1,18,0.6,1,8,14,1.75
+231,11423,0.697,0.7912,0.1252,0.303,0.2088,Medium High Connected,Medium High Connected,4,1,18,0.5,5,15,3,0.2
+232,11426,0.8063,0.8041,0.1021,0.1937,0.1959,Medium Low Connected,Medium Low Connected,4,1,8,1.8,7,11,4,0.36
+233,11427,0.7546,0.7535,0.1323,0.2454,0.2465,Medium High Connected,Medium High Connected,3,1,7,7,0,5,4,0.8
+234,11428,0.7663,0.7786,0.1197,0.2337,0.2214,Medium Low Connected,Medium High Connected,3,1,21,6.9,1,3,0,0
+235,11429,0.7828,0.8256,0.122,0.2172,0.1744,Medium Low Connected,Medium Low Connected,3,0,0,0,0,4,7,1.75
+236,11430,0.7013,0.7771,0.1696,0.2987,0.2229,Medium High Connected,Medium High Connected,2,0,0,0,0,2,0,0
+237,11432,0.7069,0.7732,0.1538,0.2931,0.2268,Medium High Connected,Medium High Connected,4,4,169,30.5,13,34,24,0.71
+238,11433,0.5992,0.7593,0.2328,0.4008,0.2407,High Connected,Medium High Connected,3,4,41,39.8,16,22,14,0.64
+239,11434,0.5783,0.781,0.2283,0.4217,0.219,High Connected,Medium High Connected,3,6,87,20.2,36,33,9,0.27
+240,11435,0.7296,0.8142,0.1575,0.2704,0.1858,Medium High Connected,Medium Low Connected,4,1,27,0.5,6,22,25,1.14
+241,11436,0.622,0.8118,0.1624,0.378,0.1882,High Connected,Medium Low Connected,3,2,25,5.8,5,12,8,0.67
+242,11451,0.8296,0.9296,0.1704,0.1704,0.0704,Medium Low Connected,Low Connected,0,0,0,0,0,0,0,0
+243,11691,0.6694,0.7166,0.2134,0.3306,0.2834,High Connected,High Connected,4,7,177,72,11,6,4,0.67
+244,11692,0.6874,0.7776,0.1925,0.3126,0.2224,Medium High Connected,Medium High Connected,3,2,70,9.5,3,2,0,0
+245,11693,0.6871,0.7508,0.1853,0.3129,0.2492,Medium High Connected,Medium High Connected,3,4,56,6.5,12,6,4,0.67
+246,11694,0.732,0.7595,0.156,0.268,0.2405,Medium High Connected,Medium High Connected,4,2,29,2.6,11,2,8,4
+247,11697,0.758,0.699,0.1217,0.242,0.301,Medium High Connected,High Connected,3,0,0,0,0,0,1,0
