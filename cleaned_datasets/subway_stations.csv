@@ -1,4 +1,4 @@
-station_name,entrance_latitude,entrance_longitude,entrance_number,station_entrance
+station_name,latitude,longitude,entrance_number,station_entrance
 Far Rockaway-Mott Av,40.604657,-73.754178,1,Far Rockaway-Mott Av entrance 1
 Beach 25th St,40.599708,-73.761959,3,Beach 25th St entrance 3
 Beach 25th St,40.599427,-73.761807,1,Beach 25th St entrance 1
