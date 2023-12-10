@@ -46,7 +46,6 @@ blocks = blocks.merge(
     how='left'
 )
 blocks = blocks.loc[~pd.isna(blocks['No Internet Access (Percentage of Households)'])]
-blocks = blocks.drop('index_right', axis = 1)
 
 
 # Load the source data
