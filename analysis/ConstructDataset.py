@@ -25,24 +25,27 @@ blocks = gpd.read_file(r"2020_census_blocks/geo_export_0cf61a4c-2518-43af-b17b-0
 
 # Attach zip code to block data
 # Drop blocks without a zipcode
-zipData = gpd.read_file(r"../data_cleaning/zipcode/geo_export_fc721dfd-087f-41ed-b841-bec5c0e62515.shp")
-blocks = gpd.sjoin(
-    blocks,
-    zipData[['modzcta', 'geometry']],
-    how='left',
-    predicate='within'
+zipData = pd.read_csv(r"zcta_to_block.csv", engine='pyarrow')
+blocks['geoid'] = blocks['geoid'].astype('int64')
+blocks = blocks.merge(
+    zipData,
+    left_on="geoid",
+    right_on="GEOID_TABBLOCK_20",
+    how="inner"
 )
-blocks = blocks.loc[~pd.isna(blocks['modzcta'])]
-blocks['modzcta'] = blocks['modzcta'].astype(float)
+blocks = blocks.loc[~pd.isna(blocks['GEOID_ZCTA5_20'])]
+del zipData
 
 # Attach internet data by zip code
 internet = pd.read_csv(r"..cleaned_datasets/internet.csv")
 internet = internet.drop('geometry', axis=1)
 blocks = blocks.merge(
     internet,
-    on='modzcta',
+    left_on='GEOID_ZCTA5_20',
+    right_on='modzcta',
     how='left'
 )
+blocks = blocks.loc[~pd.isna(blocks['No Internet Access (Percentage of Households)'])]
 blocks = blocks.drop('index_right', axis = 1)
 
 
