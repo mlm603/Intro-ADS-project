@@ -86,21 +86,21 @@ plt.show()
 # Calculate the relative change in price per sqft
 # Moving from the lowest to highest by predictor
 """
-Intercept             6.261    0.226  27.668 0.000    5.818    6.705
-subw_per_area      -140.493   12.692 -11.069 0.000 -165.369 -115.617
-viol_per_area        -4.670    9.862  -0.474 0.636  -23.999   14.658
-percNoInternet        0.809    0.024  33.266 0.000    0.762    0.857
-Group Var             0.256    1.023                                
+Intercept             6.274     0.221  28.414  0.000    5.841   6.707
+subw_per_area       -13.565     3.272  -4.145  0.000  -19.979  -7.152
+viol_per_area        18.571     5.821   3.190  0.001    7.162  29.979
+percNoInternet        0.627     0.015  41.187  0.000    0.598   0.657
+Group Var             0.244     1.199                                
 """
 # Subway
-# Decrease by 68.6%
-100 * (np.exp(-140.493 * (0.008250 - 0.000000)) - 1) 
+# Decrease by 27%
+100 * (np.exp(-13.565 * (0.023247 - 0.000000)) - 1) 
 
 # Violence
-# Decrease by 4.7%
-100 * (np.exp(-4.670 * (0.010222 - 0.000000)) - 1) 
+# Increase by 21%
+100 * (np.exp(18.571 * (0.010222 - 0.000000)) - 1) 
 
 # Percent No Internet
-# Increase by 26.2%
-100 * (np.exp(0.809 * (0.323600 - 0.035500)) - 1) 
+# Increase by 18%
+100 * (np.exp(0.627 * (0.323600 - 0.058300)) - 1) 
 
