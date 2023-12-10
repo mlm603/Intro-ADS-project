@@ -24,14 +24,12 @@ def saleFilter(x):
         (x['sale_price'] >= 1e4) &
         (x['sale_price'] <= 5e8) &
         (x['gross_square_feet'] >= 300) &
-        (x['gross_square_feet'] < 1e5) &
-        (x['year_built'] >= 1850)
+        (x['gross_square_feet'] < 1e5)
     ]
     codePtrn = re.compile(r'([0-9]{2})')
     x = x.assign(category_id = [codePtrn.search(y)[0] for y in x["building_class_category"]])
     isHome = [y in ["01", "02", "03"] for y in x["category_id"]]
     return x.loc[isHome]
-
 
 
 
