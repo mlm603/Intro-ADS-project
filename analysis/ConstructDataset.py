@@ -92,29 +92,60 @@ Grocery, Restaurants, and Subways: Assume that distance to matters. Count all
 
 # Aggregate crime data
 # Count total crimes and total violence crimes
-crimeData = sourceData.pop(0)
+crimeData = sourceData[0].copy()
 crimeData = crimeData.groupby(crimeData['bctcb2020'], as_index=False).agg(
    numCrime=('id', 'count'),
    numViolent=('is_violent_offense', 'sum'),
-   boroname=('boroname','first')
+   boroname=('boroname','first'),
+   geometry=('geometry','first')
 )
-blocks = blocks.merge(
-    crimeData[['bctcb2020', 'numCrime', 'numViolent']],
-    on='bctcb2020',
-    how='left'
-)
-blocks['numCrime'] = [0 if pd.isna(x) else x for x in blocks['numCrime']]
-blocks['numViolent'] = [0 if pd.isna(x) else x for x in blocks['numViolent']]
+sourceData[0] = crimeData
+del crimeData
 
+# Aggregate grocery data
+# Count total grocery stores
+groceryData = sourceData[1].copy()
+groceryData = groceryData.groupby(groceryData['bctcb2020'], as_index=False).agg(
+   numGrocery=('County', 'count'),
+   boroname=('boroname','first'),
+   geometry=('geometry','first')
+)
+sourceData[1] = groceryData
+del groceryData
+
+# Aggregate restaurant data
+# Count total restaurants
+restaurantData = sourceData[2].copy()
+restaurantData = restaurantData.groupby(restaurantData['bctcb2020'], as_index=False).agg(
+   numRestaurant=('camis', 'count'),
+   boroname=('boroname','first'),
+   geometry=('geometry','first')
+)
+sourceData[2] = restaurantData
+del restaurantData
+
+# Aggregate subway
 # Subway stations have multiple entrances
 # Subset to one entrance per station
 # This might make the count slightly less accurate when a subway station is
 # on the edge of the radius, but protects against bias from subway stations
 # that have more entrances than others
-sourceData[2] = sourceData[2].drop_duplicates('station_name')
+# Count total stations
+subwayData = sourceData[3].copy()
+subwayData = subwayData.drop_duplicates('station_name')
+subwayData = subwayData.groupby(subwayData['bctcb2020'], as_index=False).agg(
+   numSubway=('station_name', 'count'),
+   boroname=('boroname','first'),
+   geometry=('geometry','first')
+)
+sourceData[3] = subwayData
+del subwayData
+
+
 
 # Aggregate the other data by counting in a distance radius to the block
-# Assume a radius of 1610 meters, which gives 4 mph walking speed for 15 minutes
+# Assume a radius of 1610 / sqrt(2) meters, which gives 4 mph walking speed for 15 minutes
+# Penalized towards Manhattan (L1) distance 
 # This is the CDC lower estimate on average adult walking speed
 # 15 minutes is considered a typical radius in urban design
 #
@@ -138,6 +169,15 @@ def aggBlock(blockInds):
             d = 9999
         return d
     
+    # Specify the targets to count
+    targetList = [
+        'numCrime',
+        'numViolent',
+        'numGrocery',
+        'numRestaurant',
+        'numSubway'
+    ]
+    
     aggResult = []
     for i in range(blockInds[0], blockInds[1]):
         
@@ -152,11 +192,14 @@ def aggBlock(blockInds):
         for d in sourceData:
             sub = d.loc[d['boroname'] == row['boroname']]
             delta = [safeDist(blockPT, (pt.centroid.y, pt.centroid.x)) for pt in sub['geometry']]
-            countList.append(sum([d <= 1610 for d in delta]))
+            inRange = [d <= 1138 for d in delta]
+            for k in range(0, len(targetList)):
+                if targetList[k] in sub.columns:
+                    countList.append(sum(sub[targetList[k]].loc[inRange]))
             
         # Record as a dataframe row
         aggResult.append(
-            pd.DataFrame({'rowId':[i], 'numGrocery':[countList[0]], 'numRestaurant':[countList[1]], 'numSubway':[countList[2]]})
+            pd.DataFrame([countList], columns=targetList)
         )
         
     return pd.concat(aggResult)
@@ -183,5 +226,3 @@ if __name__ == '__main__':
     out = pd.concat(result)
     out = pd.concat([blocks.reset_index(drop=True), out.reset_index(drop=True)], axis=1)
     out.to_csv("fullData.csv", index=False)
-
-
