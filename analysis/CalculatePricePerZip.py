@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import geopandas as gpd
 import regex as re
 
@@ -22,14 +23,17 @@ def saleFilter(x):
     x = x[
         (x['zip_code'] > 0) &
         (x['sale_price'] >= 1e4) &
-        (x['sale_price'] <= 5e8) &
-        (x['gross_square_feet'] >= 300) &
-        (x['gross_square_feet'] < 1e5)
+        (x['sale_price'] <= 2e8)
     ]
-    codePtrn = re.compile(r'([0-9]{2})')
-    x = x.assign(category_id = [codePtrn.search(y)[0] for y in x["building_class_category"]])
-    isHome = [y in ["01", "02", "03"] for y in x["category_id"]]
-    return x.loc[isHome]
+    doKeep = []
+    for v in ['A', 'B', 'C', 'D']:
+        codePtrn = re.compile(r'(^' + v + '.$)')
+        doKeep.append([codePtrn.search(y) != None for y in x['building_class_at_time_of_sale']])
+    codePtrn = re.compile(r'(^R[0-46-9]$)')
+    doKeep.append([codePtrn.search(y) != None for y in x['building_class_at_time_of_sale']])
+    doKeep = np.stack(doKeep, axis=1)
+    doKeep = [sum(v) > 0 for v in doKeep]
+    return x.loc[doKeep]
 
 
 
@@ -91,10 +95,8 @@ for k in range(0, len(saleData)):
 result = []
 for i in range(0, len(saleData)):
     data = saleData[i]
-    data = data.assign(price_per_sqft = (data['sale_price'] / data['gross_square_feet']))
     data = data.groupby(data['modzcta'], as_index=False).agg(
-        price_per_sqft = ('price_per_sqft', 'mean'),
-        gross_square_feet = ('gross_square_feet', 'mean')
+        sale_price = ('sale_price', 'median')
     )
     result.append(data)
 result = pd.concat(result)

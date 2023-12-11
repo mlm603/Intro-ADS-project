@@ -39,7 +39,7 @@ data = data.assign(viol_per_area = (data['numViolent'] / data['shape_area']))
 
 # Final dataset
 keepVars = [
-    'price_per_sqft',
+    'sale_price',
     'groc_per_area', 'rest_per_area', 'subw_per_area',
     'crim_per_area', 'viol_per_area',
     'percNoInternet',
@@ -59,7 +59,7 @@ data[['groc_per_area','rest_per_area','subw_per_area','viol_per_area','percNoInt
 # Create a multilevel model to predict price per square foot
 # Since housing prices are often log-normal, do a log transform on y
 model = smf.mixedlm(
-    "np.log(price_per_sqft) ~ subw_per_area + viol_per_area + percNoInternet", 
+    "np.log(sale_price) ~ subw_per_area + viol_per_area + percNoInternet", 
     data, 
     groups=data['boroname']
 )
@@ -86,21 +86,21 @@ plt.show()
 # Calculate the relative change in price per sqft
 # Moving from the lowest to highest by predictor
 """
-Intercept          6.277     0.221   28.418  0.000     5.844    6.710
-subw_per_area   -110.649     8.724  -12.683  0.000  -127.749  -93.549
-viol_per_area      0.306     0.024   12.650  0.000     0.259    0.354
-percNoInternet     0.604     0.015   39.505  0.000     0.574    0.634
-Group Var          0.244     1.201                                                              
+Intercept        13.566     0.141  96.271  0.000  13.290   13.842
+subw_per_area    78.985    12.445   6.347  0.000  54.593  103.377
+viol_per_area    -0.194     0.035  -5.543  0.000  -0.263   -0.126
+percNoInternet    0.126     0.021   5.997  0.000   0.085    0.168
+Group Var         0.099     0.335                                                                                                                        
 """
 # Subway
-# Decrease by 82%
-100 * (np.exp(-110.649 * (0.015498 - 0.000000)) - 1) 
+# Decrease by 240%
+print(100 * (np.exp(78.985 * (0.015498 - 0.000000)) - 1))
 
 # Violence
-# Increase by 330%
-100 * (np.exp(0.306 * (4.773469 - 0.000000)) - 1) 
+# Decrease by 60%
+print(100 * (np.exp(-0.194 * (4.773469 - 0.000000)) - 1))
 
 # Percent No Internet
-# Increase by 17%
-100 * (np.exp(0.604 * (0.323600 - 0.058300)) - 1) 
+# Increase by 3%
+print(100 * (np.exp(0.126 * (0.323600 - 0.058300)) - 1))
 
